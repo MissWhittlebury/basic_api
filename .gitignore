@@ -1,3 +1,6 @@
 .vscode
 .env
+.flaskenv
 code_challenge.html
+__pycache__
+app.db

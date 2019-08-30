@@ -15,3 +15,8 @@ def create_api(config_class=Config):
 
     db.init_app(api)
     migrate.init_app(api, db=db)
+
+    return api
+
+
+from api import models
